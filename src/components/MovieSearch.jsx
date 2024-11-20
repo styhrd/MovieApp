@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
-import { fetchMovies, fetchMovieDetails, clearSelectedMovie } from '../store/moviesSlice';
+import { fetchMovies, fetchMovieDetails, clearSelectedMovie } from '../store/movieSlice.jsx';
 
 const MovieSearch = () => {
   const [query, setQuery] = useState('');
