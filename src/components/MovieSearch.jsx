@@ -15,10 +15,10 @@ const MovieSearch = () => {
   const handleSelectMovie = (id) => {
     dispatch(fetchMovieDetails(id));
   };
-
+ 
   return (
     <div>
-      <h1>Movie Search</h1>
+      <h1 className='px-5 font-bebas text-primary'>NETFLIX </h1>
       <input
         type="text"
         placeholder="Search for a movie..."

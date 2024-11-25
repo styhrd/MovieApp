@@ -1,4 +1,21 @@
 /* ./src/index.css */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+@layer components{
+
+    .navflex{
+        @apply flex space-x-4 justify-center
+    }
+    .proficon{
+        @apply w-[36px] h-[36px]
+    }
+
+    .icon{
+        @apply text-[24px] text-[24px] text-white
+    }
+}
